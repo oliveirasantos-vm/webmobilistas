@@ -1,0 +1,33 @@
+{
+  "name": "vitor",
+  "version": "1.0.0",
+  "description": "Site de anúncio de carros online.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliveirasantos-vm/webmobilistas.git"
+  },
+  "keywords": [
+    "Motores",
+    "Carros",
+    "Motos",
+    "Mobilistas"
+  ],
+  "author": "Vitor Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliveirasantos-vm/webmobilistas/issues"
+  },
+  "homepage": "https://github.com/oliveirasantos-vm/webmobilistas#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.8",
+    "path": "^0.12.7"
+  }
+}
