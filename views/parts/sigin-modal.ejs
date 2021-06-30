@@ -1,0 +1,40 @@
+<!-- Sigin Modal -->
+<!-- Login Modal -->
+<div class="modal fade" id="siginModal" tabindex="-1" aria-labelledby="siginModalLabel" aria-hidden="true">
+    <div class="modal-dialog shadow rounded">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="siginModalLabel">Cadastrar</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-0">
+                <div class="p-3">
+                    <form>
+                        <label for="inputName" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="inputName">
+
+                        <label for="inputEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail">
+
+                        <div class="row">
+                            <div class="col">
+                                <label for="inputPassword" class="form-label">Senha</label>
+                                <input type="password" class="form-control" id="inputPassword">
+                            </div>
+                            <div class="col">
+                                <label for="confirmInputPassword" class="form-label">Confirmar Senha</label>
+                                <input type="password" class="form-control" id="confirmInputPassword">
+                            </div>
+                        </div>
+
+                        <div class="text-end mt-3">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#siginModal">Cadastrar</button>
+                            <button type="button" data-bs-dismiss="modal" class="btn btn-secondary">Voltar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

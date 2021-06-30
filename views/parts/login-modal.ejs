@@ -1,0 +1,41 @@
+<!-- Login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog shadow rounded">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="loginModalLabel">Entrar</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-0">
+                <div class="p-3">
+                    <form>
+                        <label for="inputEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail">
+                        <br>
+                        <label for="inputPassword" class="form-label">Senha</label>
+                        <input type="password" class="form-control" id="inputPassword">
+                        
+                        <div class="form-check mt-1">
+                            <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                            <label class="form-check-label" for="autoSizingCheck">Lembrar de mim</label>
+                        </div>
+
+                        <div class="text-center">
+                            <a href="/esqueci_senha">Esqueci minha senha</a><br>
+                            <button type="submit" class="btn btn-primary mt-3">Entrar</button>
+                        </div>
+                    </form>
+                </div>
+                <hr>
+                <div class="px-3 pb-3">
+                    <h6>Ainda não possui cadastro?</h6>
+                    <div class="text-end">
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                            data-bs-target="#siginModal">Cadastrar</button>
+                        <button type="button" data-bs-dismiss="modal" class="btn btn-danger">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
