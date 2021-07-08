@@ -9,21 +9,21 @@
             </div>
             <div class="modal-body p-0">
                 <div class="p-3">
-                    <form>
+                    <form id="siginForm" action="/autenticacao/sigin" method="POST"> 
                         <label for="inputName" class="form-label">Nome</label>
-                        <input type="text" class="form-control" id="inputName">
+                        <input name="name" id="name" type="text" class="form-control" id="inputName">
 
                         <label for="inputEmail" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="inputEmail">
+                        <input email="email" id="email" type="email" class="form-control" id="inputEmail">
 
                         <div class="row">
                             <div class="col">
                                 <label for="inputPassword" class="form-label">Senha</label>
-                                <input type="password" class="form-control" id="inputPassword">
+                                <input name="password" id="password" type="password" class="form-control" id="inputPassword">
                             </div>
                             <div class="col">
                                 <label for="confirmInputPassword" class="form-label">Confirmar Senha</label>
-                                <input type="password" class="form-control" id="confirmInputPassword">
+                                <input name="confirm_password" id="confirm_password" type="password" class="form-control" id="confirmInputPassword">
                             </div>
                         </div>
 

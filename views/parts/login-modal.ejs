@@ -8,15 +8,15 @@
             </div>
             <div class="modal-body p-0">
                 <div class="p-3">
-                    <form>
+                    <form id="login" action="/autenticacao/login" method="POST">
                         <label for="inputEmail" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="inputEmail">
+                        <input name="email" type="email" class="form-control" id="inputEmail">
                         <br>
                         <label for="inputPassword" class="form-label">Senha</label>
-                        <input type="password" class="form-control" id="inputPassword">
+                        <input name="password" type="password" class="form-control" id="inputPassword">
                         
                         <div class="form-check mt-1">
-                            <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                            <input name="remember-me" class="form-check-input" type="checkbox" id="autoSizingCheck">
                             <label class="form-check-label" for="autoSizingCheck">Lembrar de mim</label>
                         </div>
 
